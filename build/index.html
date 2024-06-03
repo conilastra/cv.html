@@ -6,17 +6,59 @@
     <title>Coni Lastra</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="font-sans text-white min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">
+<body class="font-sans min-h-screen">
     <nav class="relative container mx-auto p-6">
         <div class="flex items-center justify-between">
-            <h1 class="font-serif text-3xl">Coni Lastra</h1>
-            <div class="flex space-x-6">
-                <a href="#" class="hover:text-blue-400">About</a>
+            <h1 class="font-serif text-3xl font-extrabold">Coni Lastra</h1>
+            <div class="flex space-x-6 font-light">
+                <a href="#" class="hover:text-blue-400">Sobre mí</a>
                 <a href="#" class="hover:text-blue-400">CV</a>
-                <a href="#" class="hover:text-blue-400">Portfolio</a>
+                <!-- <a href="#" class="hover:text-blue-400">Portfolio</a> -->
             </div>
-            <div class="a p-3 px-6 pt-2 text-white bg-purple-500 rounded-full baseline hover:bg-fuchsia-400">Contact</div>
+            <a href="#" class="p-3 px-6 pt-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 rounded-full baseline hover:bg-cyan-500">Contacto</a>
         </div>
     </nav>
+
+    <section>
+        <div class="flex w-1/2 mx-auto justify-center">
+            <div>
+                <div class="flex-item min-w-32 min-h-32 rounded-full bg-lightBlue"></div>
+                <h2 class="text-cyan-400 text-center font-thin mt-2">Psicología</h2>
+            </div>
+            <div>
+                <div class="flex-item min-w-32 min-h-32 -ml-4 rounded-full bg-lightPurple"></div>
+                <h2 class="text-purple-400 text-center font-thin mt-2 -ml-4">UX</h2>
+            </div>
+            <div>
+                <div class="flex-item min-w-32 min-h-32 -ml-4 rounded-full bg-lightPink"></div>
+                <h2 class="text-pink-400 text-center font-thin mt-2 -ml-4">Desarrollo web</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="container mx-auto">
+        <div class="mt-8 w-1/2 mx-auto">
+            <div class="max-w-md my-4 grid gap-2 grid-cols-2 border-solid rounded-lg border-2 border-lightPink p-4 m-2">
+                <div>
+                    <h3 class="font-semibold">Design Manager</h3>
+                    <p class="font-thin text-gray-500">2021-2022</p>
+                </div>
+                <div>
+                    <p class="font-thin">Liderazgo del equipo UX/UI y gestión de stakeholders. </p>
+                </div>
+            </div>
+
+            <div class="max-w-md grid gap-2 grid-cols-2 border-solid rounded-lg border-2 border-lightPurple p-4 m-2">
+                <div>
+                    <h3 class="font-semibold">Product Designer</h3>
+                    <p class="font-thin text-gray-500">2021-2022</p>
+                </div>
+                <div>
+                    <p class="font-thin">Análisis UX de la plataforma de Tiendas. Puente entre el equipo de diseño y desarrollo. </p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
